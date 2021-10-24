@@ -117,7 +117,6 @@ function mouseDragged(){
 function mouseReleased(){
     sling.fly();
 }
-//Function is to help us to bring the hex back to the sling
 function keyPressed(){
     if(keyCode === 32){
         sling.attach(hex.body);
